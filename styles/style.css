@@ -1,0 +1,45 @@
+* {
+  font-family: Product Sans;
+}
+body{
+    background: linear-gradient(115.92deg, rgba(100, 141, 255, 0.88) 0%, #4A4AF2 98.27%);
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .navbar{
+    background: transparent !important;
+    color: white;
+} 
+
+.searchcontainer{
+    color:white;
+    margin-top:30px;
+}
+.lead{
+    font-family: Montserrat;
+}
+.searchholder{
+    margin:auto;
+}
+.searchresult{
+    height:70px;
+    width:100%;
+    background: white;
+    border-radius: 3px;
+    margin: 8px;
+}
+.title{
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.author{
+    color: rgb(36, 35, 35);
+    margin-top: -5px;
+    font-size: .85rem;
+}
