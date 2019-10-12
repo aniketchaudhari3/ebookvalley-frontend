@@ -13,7 +13,7 @@ body{
 
  .navbar{
     background: transparent !important;
-    color: white;
+    color: white !important;
 } 
 
 .searchcontainer{
