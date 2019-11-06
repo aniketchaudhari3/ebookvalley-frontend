@@ -1,0 +1,176 @@
+* {
+  font-family: Product Sans;
+}
+body {
+  background: linear-gradient(
+    115.92deg,
+    rgba(100, 141, 255, 0.88) 0%,
+    #4a4af2 98.27%
+  );
+}
+
+.searchbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchinput {
+  border-bottom-left-radius: 50rem;
+  border-top-left-radius: 50rem;
+}
+.navbar {
+  background: transparent !important;
+  color: white !important;
+}
+
+.searchcontainer {
+  color: white;
+  margin-top: 30px;
+}
+.lead {
+  font-family: Montserrat;
+}
+.searchholder {
+  margin: auto;
+}
+.searchresult {
+  height: 80px;
+  background: white;
+  border-radius: 3px;
+  margin: 8px;
+}
+.title {
+  /*padding-top: 10px;*/
+  justify-content: center;
+  align-items: center;
+}
+.author {
+  color: rgb(36, 35, 35);
+  margin-top: -5px;
+  font-size: 0.85rem;
+}
+h2 {
+  float: left;
+  width: 100%;
+  color: #fff;
+  margin-bottom: 40px;
+  font-size: 14px;
+  position: relartive;
+  z-index: 3;
+  margin-top: 30px;
+}
+
+h2 span {
+  display: block;
+  font-size: 45px;
+  text-transform: none;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  font-weight: 700;
+}
+
+h2 a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.head {
+  float: left;
+  width: 100%;
+}
+
+.search-box {
+  width: 90%;
+  margin: 0 auto 40px;
+  box-shadow: 10px 13px 0 rgba(0, 0, 0, 0.2);
+}
+
+.listing-block {
+  background: rgb(16, 44, 206);
+  height: 500px;
+  padding-top: 20px;
+  overflow-y: scroll;
+}
+
+.media {
+  border-radius: 5px !important;
+  background: #fff;
+  position: relative;
+  
+}
+.bookcard{
+	margin-bottom: 15px;
+}
+.media img {
+  width: 116px;
+  margin: 0;
+  height: 160px;
+}
+
+.media-body {
+  height: 160px;
+}
+.media img{
+	border-radius: 5px;
+}
+.media .price {
+  margin-top:15px;
+  font-family: Product Sans;
+  float: left;
+  width: 100%;
+  font-size: 23px;
+  color: #0a0a0a;
+}
+
+.media .price small {
+  display: block;
+  font-size: 17px;
+  color: #232323;
+}
+
+.media .stats {
+  float: left;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.media .stats span {
+  float: left;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.media .stats span i {
+  margin-right: 7px;
+  color: #4765ab;
+}
+
+.media .address {
+  float: left;
+  width: 100%;
+  font-size: 14px;
+  margin-top: 5px;
+  color: #888;
+}
+
+.media .fav-box {
+  position: absolute;
+  right: 10px;
+  right: 5px;
+  font-size: 40px;
+  top: calc(120px / 2);
+  color: rgb(12, 12, 12);
+}
+
+.map-box {
+  background-color: #a3ccff;
+}
+
+.downloadbook{
+	background: white;
+	margin-top:-5px;
+	height: 50px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}

@@ -1,11 +1,12 @@
 import React, { PureComponent } from 'react'
-import Navbar from './components/Navbar'
+
+import SearchResultHolder from './SearchResultHolder'
 class App extends PureComponent {
 
   render() {
     return (
       <div>
-      <Navbar/>
+      <SearchResultHolder/>
       </div>
     )
   }
