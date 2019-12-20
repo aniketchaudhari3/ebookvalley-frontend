@@ -1,5 +1,5 @@
-## Frontend for EbookValley
-#written in React
+# Frontend for EbookValley
+## Written in React
 
 This project is made by [Aniket Chaudhari](https://instagram.com/aniket.chaudhari3).
  
